@@ -12,7 +12,7 @@ dnf install \
   @"Fonts" \
   @"Hardware Support" \
   blueman \
-  cinnamon-themes \
+  mint-themes-gtk3 \
   mint-x-icons \
   mint-y-icons \
   cagibi \
@@ -20,6 +20,10 @@ dnf install \
   cups-pk-helper \
   nemo \
   nemo-extensions \
+  nemo-search-helpers \
+  nemo-fileroller \
+  nemo-image-converter \
+  nemo-preview \
   glibc-all-langpacks \
   gnome-keyring-pam \
   #kcm_systemd \
@@ -27,14 +31,24 @@ dnf install \
   mintlocale \
   mintlocale-set-default-locale \
   network-manager-applet \
-  #kde-print-manager \
+  system-config-printer \
+  simple-scan \
+  slick-greeter \
+  slick-greeter-cinnamon \
+  pipewire \
   #kde-settings-pulseaudio \
   #kde-style-breeze \
   #kdegraphics-thumbnailers \
   #kdeplasma-addons \
+  fcitx5-gtk3 \
+  fcitx5-mozc \
+  gnome-online-accounts \
   #kdialog \
   #kdnssd \
   #kf5-baloo-file \
+  cinnamon-control-center \
+  cinnamon-control-center-filesystem \
+  dnfdragora-updater \
   #kf5-kipi-plugins \
   #khotkeys \
   #kmenuedit \
@@ -43,17 +57,21 @@ dnf install \
   cinnamon-session \
   cinnamon-settings-daemon \
   cinnamon-translations \
+  desktop-backgrounds-basic \
   #kscreen \
   #kscreenlocker \
   #ksshaskpass \
-  #ksysguard \
+  gnome-system-monitor \
   #kwebkitpart \
   muffin \
+  redshift-gtk \
   NetworkManager-config-connectivity-fedora \
   #phonon-qt5-backend-gstreamer \
   #pinentry-qt \
   #plasma-breeze \
   cinnamon-desktop \
+  metacity \
+  gnome-shell \
   #plasma-desktop-doc \
   #plasma-drkonqi \
   #plasma-nm \
@@ -67,10 +85,12 @@ dnf install \
   #plasma-user-manager \
   #plasma-workspace \
   #plasma-workspace-geolocation \
-  #polkit-kde \
+  polkit-gnome \
+  gnome-terminal \
   #qt5-qtbase-gui \
   #qt5-qtdeclarative \
   lightdm-gtk \
+  lightdm-settings \
   lightdm-gtk-greeter-settings \
   setroubleshoot \
   #sni-qt \
@@ -84,5 +104,9 @@ dnf install \
   neofetch \
   firewall-config \
   kvantum \
+  qt5ct \
   dnf-plugins-core \
+  xreader \
+  l3afpad \
+  ristretto \
   xorg-x11-drv-libinput
