@@ -96,6 +96,7 @@ dnf install \
   #sni-qt \
   qbittorrent \
   libreoffice \
+  libreoffice-gtk3 \ #extra libreoffice
   @"Printing Support" \
   @"Input Methods" \
   @Multimedia \
