@@ -35,7 +35,7 @@ dnf install \
   simple-scan \
   slick-greeter \
   slick-greeter-cinnamon \
-  pipewire \
+  pipewire-pulseaudio \
   #kde-settings-pulseaudio \
   #kde-style-breeze \
   #kdegraphics-thumbnailers \
