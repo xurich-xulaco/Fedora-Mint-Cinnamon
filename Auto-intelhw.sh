@@ -5,7 +5,7 @@ if ! [ $(id -u) = 0 ]; then
   exit 1
 fi
 
-dnf groupinstall multimedia
+dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 dnf install libva-intel-hybrid-driver \ #This just depends upon your hardware, maybe this script will be more frindly in the future
   libva \
   libva-utils \
