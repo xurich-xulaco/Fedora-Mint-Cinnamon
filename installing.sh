@@ -60,6 +60,7 @@ dnf install \
   desktop-backgrounds-basic \
   #kscreen \
   #kscreenlocker \
+  gnome-screenshot \
   #ksshaskpass \
   gnome-system-monitor \
   #kwebkitpart \
@@ -85,6 +86,7 @@ dnf install \
   #plasma-user-manager \
   #plasma-workspace \
   #plasma-workspace-geolocation \
+  caribou-gtk3-module \
   polkit-gnome \
   gnome-terminal \
   #qt5-qtbase-gui \
@@ -108,6 +110,6 @@ dnf install \
   qt5ct \
   dnf-plugins-core \
   xreader \
-  l3afpad \
-  ristretto \
+  xed \
+  eom \
   xorg-x11-drv-libinput
