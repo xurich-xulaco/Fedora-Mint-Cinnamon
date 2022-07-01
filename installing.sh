@@ -37,7 +37,6 @@ dnf install \
   slick-greeter \
   slick-greeter-cinnamon \
   pipewire-pulseaudio \
-  pipewire-alsa \
   #kde-settings-pulseaudio \
   #kde-style-breeze \
   #kdegraphics-thumbnailers \
@@ -106,5 +105,7 @@ dnf install \
   dnf-plugins-core \
   xreader \
   xed \
+  gnome-calculator \
+  gnome-disk-utility \
   eom \
   xorg-x11-drv-libinput
