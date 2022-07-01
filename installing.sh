@@ -11,6 +11,7 @@ dnf install \
   @"Common NetworkManager Submodules" \
   @"Fonts" \
   @"Hardware Support" \
+  NetworkManager-config-connectivity-fedora \
   blueman \
   mint-themes-gtk3 \
   mint-x-icons \
@@ -18,7 +19,7 @@ dnf install \
   cagibi \
   colord-gtk \
   cups-pk-helper \
-  nemo \
+  @Cinnamon \
   nemo-extensions \
   nemo-search-helpers \
   nemo-fileroller \
@@ -36,6 +37,7 @@ dnf install \
   slick-greeter \
   slick-greeter-cinnamon \
   pipewire-pulseaudio \
+  pipewire-alsa \
   #kde-settings-pulseaudio \
   #kde-style-breeze \
   #kdegraphics-thumbnailers \
@@ -46,17 +48,13 @@ dnf install \
   #kdialog \
   #kdnssd \
   #kf5-baloo-file \
-  cinnamon-control-center \
   cinnamon-control-center-filesystem \
   dnfdragora-updater \
   #kf5-kipi-plugins \
   #khotkeys \
   #kmenuedit \
   cinnamon-menus \
-  cinnamon-screensaver \
-  cinnamon-session \
   cinnamon-settings-daemon \
-  cinnamon-translations \
   desktop-backgrounds-basic \
   #kscreen \
   #kscreenlocker \
@@ -64,14 +62,11 @@ dnf install \
   #ksshaskpass \
   gnome-system-monitor \
   #kwebkitpart \
-  muffin \
   redshift-gtk \
   NetworkManager-config-connectivity-fedora \
   #phonon-qt5-backend-gstreamer \
   #pinentry-qt \
   #plasma-breeze \
-  cinnamon-desktop \
-  metacity \
   gnome-shell \
   #plasma-desktop-doc \
   #plasma-drkonqi \
@@ -97,7 +92,7 @@ dnf install \
   setroubleshoot \
   #sni-qt \
   qbittorrent \
-  libreoffice \
+  @libreoffice \
   libreoffice-gtk3 \ #extra libreoffice
   @"Printing Support" \
   @"Input Methods" \
