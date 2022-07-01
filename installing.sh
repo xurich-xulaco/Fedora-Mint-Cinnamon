@@ -37,6 +37,7 @@ dnf install \
   slick-greeter \
   slick-greeter-cinnamon \
   pipewire-pulseaudio \
+  mintlocale-set-default-locale \
   #kde-settings-pulseaudio \
   #kde-style-breeze \
   #kdegraphics-thumbnailers \
