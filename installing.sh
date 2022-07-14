@@ -43,7 +43,7 @@ dnf install \
   #kdegraphics-thumbnailers \
   #kdeplasma-addons \
   fcitx5-gtk3 \
-  fcitx5-mozc \
+  fcitx5-mozc \ #Personal preference, as I make use of japanese virtual Keyboard on an english one
   gnome-online-accounts \
   #kdialog \
   #kdnssd \
@@ -61,6 +61,7 @@ dnf install \
   gnome-screenshot \
   #ksshaskpass \
   gnome-system-monitor \
+  baobab \
   #kwebkitpart \
   redshift-gtk \
   NetworkManager-config-connectivity-fedora \
