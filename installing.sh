@@ -93,7 +93,6 @@ dnf install \
   setroubleshoot \
   #sni-qt \
   #qbittorrent \
-  B
   @libreoffice \
   libreoffice-gtk3 \ #extra libreoffice
   @"Printing Support" \
