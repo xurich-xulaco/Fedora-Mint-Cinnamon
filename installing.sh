@@ -42,8 +42,8 @@ dnf install \
   #kde-style-breeze \
   #kdegraphics-thumbnailers \
   #kdeplasma-addons \
-  fcitx5-gtk3 \
-  fcitx5-mozc \ #Personal preference, as I make use of japanese virtual Keyboard on an english one
+  #fcitx5-gtk3 \
+  #fcitx5-mozc \
   gnome-online-accounts \
   #kdialog \
   #kdnssd \
@@ -92,7 +92,8 @@ dnf install \
   lightdm-gtk-greeter-settings \
   setroubleshoot \
   #sni-qt \
-  qbittorrent \
+  #qbittorrent \
+  B
   @libreoffice \
   libreoffice-gtk3 \ #extra libreoffice
   @"Printing Support" \
@@ -102,7 +103,7 @@ dnf install \
   firefox \
   neofetch \
   firewall-config \
-  kvantum \
+  #kvantum \
   qt5ct \
   dnf-plugins-core \
   xreader \
