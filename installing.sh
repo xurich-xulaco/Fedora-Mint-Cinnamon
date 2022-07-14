@@ -108,5 +108,13 @@ dnf install \
   xed \
   gnome-calculator \
   gnome-disk-utility \
+  gnome-calendar \
+  gnome-logs \
+  gnome-font-viewer \
   eom \
+  hexchat \
+  rhythmbox \
+  seahorse \
+  onboard \
+  timeshift \
   xorg-x11-drv-libinput
