@@ -23,7 +23,6 @@ dnf install \
   nemo-extensions \
   nemo-search-helpers \
   nemo-fileroller \
-  nemo-image-converter \
   nemo-preview \
   glibc-all-langpacks \
   gnome-keyring-pam \
@@ -106,6 +105,7 @@ dnf install \
   gnome-calendar \
   gnome-logs \
   gnome-font-viewer \
+  gnome-software \
   eom \
   hexchat \
   rhythmbox \
