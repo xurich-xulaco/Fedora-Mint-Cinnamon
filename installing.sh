@@ -16,6 +16,7 @@ dnf install \
   mint-themes-gtk3 \
   mint-x-icons \
   mint-y-icons \
+  dmz-cursor-themes \
   cagibi \
   colord-gtk \
   cups-pk-helper \
