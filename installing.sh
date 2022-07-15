@@ -113,6 +113,7 @@ dnf install \
   seahorse \
   onboard \
   timeshift \
+  drawing \
   xorg-x11-drv-libinput
 
 #For some reason, Libreoffice group has to be install separately. Just to be sure, this second install has the additional groups stipulated by the Fedora KDE Minimal script
