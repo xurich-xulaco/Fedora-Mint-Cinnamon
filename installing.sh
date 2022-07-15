@@ -93,15 +93,9 @@ dnf install \
   setroubleshoot \
   #sni-qt \
   #qbittorrent \
-  @Libreoffice \
-  libreoffice-gtk3 \ #extra libreoffice
-  @"Printing Support" \
-  @"Input Methods" \
-  @Multimedia \
   thunderbird \
   firefox \
   neofetch \
-  firewall-config \
   #kvantum \
   qt5ct \
   dnf-plugins-core \
@@ -120,6 +114,12 @@ dnf install \
   timeshift \
   xorg-x11-drv-libinput
 
+dnf install @Libreoffice \ #For some reason, Libreoffice group has to be install separately. Just to be sure, this second install has the additional groups stipulated by the Fedora KDE Minimal script
+  @"Printing Support" \
+  @"Input Methods" \
+  @Multimedia \
+  firewall-config
+  
 dnf remove xfburn \
   shotwell \
   pidgin \
