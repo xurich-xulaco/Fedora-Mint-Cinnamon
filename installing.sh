@@ -114,7 +114,8 @@ dnf install \
   timeshift \
   xorg-x11-drv-libinput
 
-dnf install @Libreoffice \ #For some reason, Libreoffice group has to be install separately. Just to be sure, this second install has the additional groups stipulated by the Fedora KDE Minimal script
+#For some reason, Libreoffice group has to be install separately. Just to be sure, this second install has the additional groups stipulated by the Fedora KDE Minimal script
+dnf install @Libreoffice \
   @"Printing Support" \
   @"Input Methods" \
   @Multimedia \
