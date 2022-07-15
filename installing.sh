@@ -119,3 +119,8 @@ dnf install \
   onboard \
   timeshift \
   xorg-x11-drv-libinput
+
+dnf remove xfburn \
+  shotwell \
+  pidgin \
+  xawtv
