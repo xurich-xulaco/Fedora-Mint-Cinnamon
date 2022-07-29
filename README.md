@@ -3,10 +3,11 @@ Originally, a ripoff of Fedora KDE Minimal Install. Now, a copycat of Linux Mint
 
 WIP
 
-All scripts need a good old "sudo chmod +x" in order to work
+All scripts need a good old "sudo chmod +x" in order to work.
+
 Then, a "sudo ./script.sh"
 
-# Missing
+# TODO list
 - [ ] Make a master script to automatize everything
 - [ ] Compare default Fedora cinnamon keybinds with Linux Mint ones
 - [ ] Configure some names on menu
