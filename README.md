@@ -19,3 +19,5 @@ Make scripts to help nvidia and amd users that also want hardware acceleration
 Make a help script to install fcitx (just like in linux mint)
 
 (Maybe) make a small gui with python or another language
+
+Find/Make a copr to provide xviewer, bulky, thingy, sticky, xplayer, hypnotix (I might also be missing another package)
