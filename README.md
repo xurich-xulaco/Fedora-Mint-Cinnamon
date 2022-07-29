@@ -9,7 +9,7 @@ Then, a "sudo ./script.sh"
 
 # TODO list
 - [ ] Make a master script to automatize everything
-- [ ] Compare default Fedora cinnamon keybinds with Linux Mint ones
+- [x] Compare default Fedora cinnamon keybinds with Linux Mint ones (appear to be the same)
 - [ ] Configure some names on menu
 - [ ] Automatically apply mint themes via "gsettings set org.cinnamon.theme name"
 - [ ] Make scripts to help nvidia and amd users that also want hardware acceleration
