@@ -16,6 +16,8 @@ dnf install \
   mint-themes-gtk3 \
   mint-x-icons \
   mint-y-icons \
+  hicolor-icon-theme \
+  highcontrast-icon-theme \
   dmz-cursor-themes \
   cagibi \
   colord-gtk \
