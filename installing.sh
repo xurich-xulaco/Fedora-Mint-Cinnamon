@@ -111,7 +111,6 @@ dnf install \
   gnome-software \
   eom \
   hexchat \
-  rhythmbox \
   seahorse \
   onboard \
   timeshift \
@@ -123,6 +122,7 @@ dnf install @Libreoffice \
   @"Printing Support" \
   @"Input Methods" \
   @Multimedia \
+  rhythmbox
   #firewall-config
   
 dnf remove xfburn \
