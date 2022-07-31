@@ -123,7 +123,7 @@ dnf install @Libreoffice \
   @"Printing Support" \
   @"Input Methods" \
   @Multimedia \
-  firewall-config
+  #firewall-config
   
 dnf remove xfburn \
   shotwell \
