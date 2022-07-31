@@ -13,4 +13,4 @@ dnf install libva-intel-hybrid-driver \ #This just depends upon your hardware, m
   ffmpeg \
   intel-gpu-tools \
   mesa-dri-drivers \
-  mpv
+  celluloid
